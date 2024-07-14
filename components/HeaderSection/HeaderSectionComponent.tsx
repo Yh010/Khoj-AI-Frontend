@@ -3,11 +3,12 @@ import YCFeaturedComponent from "../YCFeatured/YCFeaturedComponent";
 import SnippetComponent from "./SnippetComponent";
 import GetStartedButton from "../ui/GetStartedButton";
 import LaptopScreen from "./LaptopScreen";
+import CompaniesMarquee from "./CompaniesMarquee";
 
 export default function HeaderSectionComponent() {
   return (
-    <div className="space-y-24">
-      <div className="flex justify-center">
+    <div className="space-y-24 text-center">
+      <div className="flex justify-center ">
         <YCFeaturedComponent />
       </div>
 
@@ -26,6 +27,9 @@ export default function HeaderSectionComponent() {
       </div>
       <div>
         <LaptopScreen />
+      </div>
+      <div>
+        <CompaniesMarquee />
       </div>
     </div>
   );
