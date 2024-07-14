@@ -2,6 +2,7 @@ import { Snippet } from "next/font/google";
 import YCFeaturedComponent from "../YCFeatured/YCFeaturedComponent";
 import SnippetComponent from "./SnippetComponent";
 import GetStartedButton from "../ui/GetStartedButton";
+import LaptopScreen from "./LaptopScreen";
 
 export default function HeaderSectionComponent() {
   return (
@@ -22,6 +23,9 @@ export default function HeaderSectionComponent() {
       <div className="flex justify-center space-x-6 items-center">
         <SnippetComponent />
         <GetStartedButton />
+      </div>
+      <div>
+        <LaptopScreen />
       </div>
     </div>
   );
