@@ -3,7 +3,7 @@ import YC from "../../public/YC.png";
 import Link from "next/link";
 export default function YCFeaturedComponent() {
   return (
-    <div className="h-34 border border-orange-600 p-2 rounded-lg mt-5 font-bold text-orange-600">
+    <div className="h-34 border w-1/3 border-orange-600 p-2 rounded-lg mt-5 font-bold text-orange-600">
       <Link
         href={
           "https://www.linkedin.com/feed/update/urn:li:activity:7203452073185542144/"
@@ -17,9 +17,10 @@ export default function YCFeaturedComponent() {
         </div>
 
         <div className="text-center">AS</div>
-        <div>&quot;TOP 100 OPEN SOURCE STARTUPS&quot;</div>
+        <div className="text-center">
+          &quot;TOP 100 OPEN SOURCE STARTUPS&quot;
+        </div>
       </Link>
     </div>
   );
 }
-/*  */
