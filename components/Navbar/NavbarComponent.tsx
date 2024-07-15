@@ -2,6 +2,7 @@ import Image from "next/image";
 import logo from "../../public/image.png";
 import Link from "next/link";
 import { DiscordLogoIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
+import { Button } from "../ui/button";
 export default function NavbarComponent() {
   return (
     <div className="flex justify-around items-center border-b border-zinc-400 p-3 bg-amber-50 shadow-md">
@@ -37,6 +38,13 @@ export default function NavbarComponent() {
             <GitHubLogoIcon className="h-8 w-8" />
             <div className="w-16 group-hover:hidden">12k</div>
             <div className="w-16 hidden group-hover:block text-sm">Star us</div>
+          </Link>
+        </div>
+        <div className="">
+          <Link href={"https://twitter.com/khoj_ai"}>
+            <Button>
+              <div className="">Book a demo</div>
+            </Button>
           </Link>
         </div>
       </div>

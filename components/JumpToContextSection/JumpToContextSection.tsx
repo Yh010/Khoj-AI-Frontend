@@ -4,7 +4,7 @@ export default function JumpToContextSection() {
   return (
     <div className="flex justify items-center  bg-gradient-to-r from-amber-50  via-amber-100 to-amber-50 shadow-md p-10">
       <div className="pt-10 ">
-        <div className="text-5xl font-bold text-center">
+        <div className="text-5xl font-semibold text-center">
           Jump straight into context
         </div>
         <div className="flex justify-center">

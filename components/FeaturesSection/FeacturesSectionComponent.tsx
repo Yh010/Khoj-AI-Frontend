@@ -1,4 +1,12 @@
-import { BackpackIcon } from "@radix-ui/react-icons";
+import {
+  BackpackIcon,
+  DesktopIcon,
+  IdCardIcon,
+  LightningBoltIcon,
+  MagnifyingGlassIcon,
+  PersonIcon,
+  QuestionMarkIcon,
+} from "@radix-ui/react-icons";
 import { Layers2Icon } from "lucide-react";
 
 export default function FeaturesSectionComponent() {
@@ -41,7 +49,7 @@ export default function FeaturesSectionComponent() {
               <div className="border border-zinc-300 p-4 h-full">
                 <div className="flex  items-center space-x-2">
                   <div>
-                    <BackpackIcon />
+                    <DesktopIcon />
                   </div>
 
                   <div className="font-semibold">Engage anytime, anywhere</div>
@@ -58,7 +66,7 @@ export default function FeaturesSectionComponent() {
               <div className="border border-zinc-300 p-4 h-full">
                 <div className="flex  items-center space-x-2">
                   <div>
-                    <BackpackIcon />
+                    <PersonIcon />
                   </div>
 
                   <div className="font-semibold">Work hands-free</div>
@@ -75,7 +83,7 @@ export default function FeaturesSectionComponent() {
               <div className="border border-zinc-300 p-4 h-full">
                 <div className="flex  items-center space-x-2">
                   <div>
-                    <BackpackIcon />
+                    <MagnifyingGlassIcon />
                   </div>
 
                   <div className="font-semibold">
@@ -96,7 +104,7 @@ export default function FeaturesSectionComponent() {
               <div className="border border-zinc-300 p-4 h-full">
                 <div className="flex  items-center space-x-2">
                   <div>
-                    <BackpackIcon />
+                    <LightningBoltIcon />
                   </div>
 
                   <div className="font-semibold">
@@ -115,7 +123,7 @@ export default function FeaturesSectionComponent() {
               <div className="border border-zinc-300 p-4 h-full">
                 <div className="flex  items-center space-x-2">
                   <div>
-                    <BackpackIcon />
+                    <IdCardIcon />
                   </div>
 
                   <div className="font-semibold">Are you a student?</div>

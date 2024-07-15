@@ -1,6 +1,7 @@
 import FeaturesSectionComponent from "@/components/FeaturesSection/FeacturesSectionComponent";
 import HeaderSectionComponent from "@/components/HeaderSection/HeaderSectionComponent";
 import JumpToContextSection from "@/components/JumpToContextSection/JumpToContextSection";
+import RunSectionComponent from "@/components/RunPrivatelySection/RunSectionComponent";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <HeaderSectionComponent />
         <JumpToContextSection />
         <FeaturesSectionComponent />
+        <RunSectionComponent />
       </div>
     </div>
   );
