@@ -24,7 +24,7 @@ export default function SnippetComponent() {
   return (
     <div>
       <div className="border rounded-lg border-zinc-400 p-2 flex space-x-4 ">
-        <div>
+        <div className="text-start">
           <div>$ pip install khoj-assistant </div>
           <div>$ khoj</div>
         </div>
