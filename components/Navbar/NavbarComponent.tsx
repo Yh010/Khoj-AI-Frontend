@@ -6,10 +6,13 @@ import { Button } from "../ui/button";
 export default function NavbarComponent() {
   return (
     <div className="flex justify-around items-center border-b border-zinc-400 p-3 bg-amber-50 shadow-md">
-      <div>
-        <Image alt="logo" src={logo} className="h-14 w-16 border-zinc-400" />
-      </div>
-      <div className="flex space-x-4 border rounded-2xl">
+      <Link href={"https://khoj.dev/"}>
+        <div className="border shadow-lg rounded-xl ">
+          <Image alt="logo" src={logo} className="h-14 w-16 border-zinc-400" />
+        </div>
+      </Link>
+
+      <div className="flex space-x-4 border rounded-2xl shadow-md p-1">
         <div className="hover:border-zinc-400 border-transparent border w-14 text-center p-2 rounded-2xl hover:bg-amber-100">
           <Link href={"https://khoj.dev/whatsapp"}>Docs</Link>
         </div>

@@ -8,7 +8,7 @@ export default function JumpToContextSection() {
           Jump straight into context
         </div>
         <div className="flex justify-center">
-          <div className="mt-16 ml-16 mr-16 ">
+          <div className="mt-16 ml-16 mr-16 shadow-xl">
             <Image src={KhojScreen} alt="khojscreen" className="h-96" />
           </div>
           <div className="text-start text-3xl w-1/2 mt-16 align-middle flex flex-col justify-center ">

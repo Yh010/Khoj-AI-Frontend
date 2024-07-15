@@ -28,7 +28,7 @@ export default function FeaturesSectionComponent() {
         <div className="flex justify-center">
           <div className="grid grid-cols-3 gap-4 border-t border-b border-zinc-300 m-4 w-3/4 p-10">
             <div>
-              <div className="border border-zinc-300 p-4">
+              <div className="shadow-lg border border-zinc-300 p-4">
                 <div className="flex  items-center space-x-2">
                   <div>
                     <BackpackIcon />
@@ -46,7 +46,7 @@ export default function FeaturesSectionComponent() {
               </div>
             </div>
             <div>
-              <div className="border border-zinc-300 p-4 h-full">
+              <div className="shadow-lg border border-zinc-300 p-4 h-full">
                 <div className="flex  items-center space-x-2">
                   <div>
                     <DesktopIcon />
@@ -63,7 +63,7 @@ export default function FeaturesSectionComponent() {
               </div>
             </div>
             <div>
-              <div className="border border-zinc-300 p-4 h-full">
+              <div className="border shadow-lg border-zinc-300 p-4 h-full">
                 <div className="flex  items-center space-x-2">
                   <div>
                     <PersonIcon />
@@ -80,7 +80,7 @@ export default function FeaturesSectionComponent() {
               </div>
             </div>
             <div>
-              <div className="border border-zinc-300 p-4 h-full">
+              <div className="shadow-lg border border-zinc-300 p-4 h-full">
                 <div className="flex  items-center space-x-2">
                   <div>
                     <MagnifyingGlassIcon />
@@ -101,7 +101,7 @@ export default function FeaturesSectionComponent() {
               </div>
             </div>
             <div>
-              <div className="border border-zinc-300 p-4 h-full">
+              <div className=" shadow-lg border border-zinc-300 p-4 h-full">
                 <div className="flex  items-center space-x-2">
                   <div>
                     <LightningBoltIcon />
@@ -120,7 +120,7 @@ export default function FeaturesSectionComponent() {
               </div>
             </div>
             <div>
-              <div className="border border-zinc-300 p-4 h-full">
+              <div className="shadow-lg border border-zinc-300 p-4 h-full">
                 <div className="flex  items-center space-x-2">
                   <div>
                     <IdCardIcon />

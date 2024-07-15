@@ -3,7 +3,7 @@ import YC from "../../public/YC.png";
 import Link from "next/link";
 export default function YCFeaturedComponent() {
   return (
-    <div className="h-34 border w-60 border-orange-600 p-2 rounded-lg mt-5 font-bold text-orange-600">
+    <div className="h-34 border w-60 border-orange-600 p-2 rounded-lg mt-5 font-bold text-orange-600 shadow-lg">
       <Link
         href={
           "https://www.linkedin.com/feed/update/urn:li:activity:7203452073185542144/"
