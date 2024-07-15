@@ -2,7 +2,7 @@ import Image from "next/image";
 import KhojScreen from "../../public/khojScreen.png";
 export default function JumpToContextSection() {
   return (
-    <div className="flex justify items-center  bg-gradient-to-r from-amber-50  via-amber-100 to-amber-50 shadow-md">
+    <div className="flex justify items-center  bg-gradient-to-r from-amber-50  via-amber-100 to-amber-50 shadow-md p-10">
       <div className="pt-10 ">
         <div className="text-5xl font-bold text-center">
           Jump straight into context

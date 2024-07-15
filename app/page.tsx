@@ -1,3 +1,4 @@
+import FeaturesSectionComponent from "@/components/FeaturesSection/FeacturesSectionComponent";
 import HeaderSectionComponent from "@/components/HeaderSection/HeaderSectionComponent";
 import JumpToContextSection from "@/components/JumpToContextSection/JumpToContextSection";
 
@@ -7,6 +8,7 @@ export default function Home() {
       <div>
         <HeaderSectionComponent />
         <JumpToContextSection />
+        <FeaturesSectionComponent />
       </div>
     </div>
   );
