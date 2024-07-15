@@ -1,3 +1,4 @@
+import BackedBy from "@/components/backedbySection/backedBySectionComponent";
 import FeaturesSectionComponent from "@/components/FeaturesSection/FeacturesSectionComponent";
 import HeaderSectionComponent from "@/components/HeaderSection/HeaderSectionComponent";
 import JumpToContextSection from "@/components/JumpToContextSection/JumpToContextSection";
@@ -11,6 +12,7 @@ export default function Home() {
         <JumpToContextSection />
         <FeaturesSectionComponent />
         <RunSectionComponent />
+        <BackedBy />
       </div>
     </div>
   );

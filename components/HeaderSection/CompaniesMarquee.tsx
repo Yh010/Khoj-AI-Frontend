@@ -12,10 +12,9 @@ import {
 
 export default function CompaniesMarquee() {
   return (
-    <div>
-      <div className="pb-20">
-        Join the maintainers and contributors to the largest open-source
-        projects on our waitlist.
+    <div className="mb-16">
+      <div className="pb-20 text-3xl">
+        Trusted and loved by teams, and businesses of all sizes
       </div>
       <div className="flex justify-center items-center w-88">
         <Marquee
